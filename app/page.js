@@ -28,7 +28,7 @@ export default function Home() {
         <OneRem/>
         <span className={caveat.className}>By <a href={"https://github.com/williambroberts/TyperWriter"} className='name-link'> William Roberts</a> <span className={noto.className}>&#128221;</span> </span> 
         <OneRem/>
-        <TypeWriter2 words={["123","abc","..."]} pause={1000} interval={100} cursorTickRate={1} />
+        <TypeWriter2 words={["You can type","your own words!","..."]} pause={1000} interval={100} cursorTickRate={1} />
         <OneRem/>
         <Intro>
           You are welcome to view the source code and use this in your own work & projects.
@@ -38,6 +38,17 @@ export default function Home() {
         <LinkButton icon={<IconGithub/>} text={"Link to Code"} link={"https://github.com/williambroberts/TyperWriter"}/>
         <OneRem/>
         <Intro>The relevant files are called "typeWriter.jsx" and "typeWriter.css" <span className={noto.className}>&#x1F4C1;</span></Intro>
+        <OneRem/>
+        <div>Features</div>
+        <OneRem/>
+        <span>Pass as Props the following: </span>
+        <ul>
+          <li> words to type, <strong>any number & length</strong></li>
+          <li><strong>pause</strong> time at the end of the word</li>
+          <li>type <strong>speed</strong></li>
+          <li>cursor tick rate</li>
+         
+        </ul>
       </CenteredPAgeWrapper>
     
      
