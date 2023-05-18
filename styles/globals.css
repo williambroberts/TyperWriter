@@ -251,6 +251,8 @@ header > nav {
   margin: auto;
   height: 100%;
   flex: 1 1 auto;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
   /* title component */
@@ -339,6 +341,7 @@ gap: 0px;
 flex-wrap: wrap;
 white-space: pre-wrap;
 position: relative;
+text-align: center;
 
 }
 
@@ -364,6 +367,68 @@ position: relative;
 .name-link {
   text-decoration: none;
   font-size: inherit;
-  color: inherit;
+  color: var(--bg-3);
   cursor: pointer;
+  font-size: inherit;
+}
+
+.name-span {
+  color: var(--yellow);
+  font-size: var(--font-size-24);
+  font-weight: 500;
+}
+.code-1 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 20%;
+  left: 20%;
+  z-index: 0;
+}
+.code-2 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 50%;
+  left: 20%;
+  z-index: 0;
+}
+.code-3 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 20%;
+  left: 70%;
+  transform: rotate(45deg);
+  z-index: 0;
+}
+.code-4 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 90%;
+  left: 70%;
+  transform: rotate(9deg);
+  z-index: 0;
+}
+.code-5 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 50%;
+  left: 80%;
+  transform: rotate(-60deg);
+  z-index: 0;
+}
+.code-6 {
+  position: absolute;
+  color: var(--thumbBG);
+  font-size: var(--font-size-12-14);
+  top: 10%;
+  left: 90%;
+  transform: rotate(-9deg);
+  z-index: 0;
+}
+.underlined {
+  text-decoration: underline;
 }

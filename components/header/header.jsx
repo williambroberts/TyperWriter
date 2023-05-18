@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header>
         <nav className='header-nav'>
-            <span className='header-one'> <span className={noto.className}>&#x2328;  </span> React Type Writer Effect</span>
+            <span className='header-one'> <span className={noto.className}>&#x1F4CB;  </span> React Type Writer Effect</span>
         </nav>
     </header>
   )
