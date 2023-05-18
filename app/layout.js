@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/typeWriter.css'
 import { Inter } from 'next/font/google'
 import { Noto_Color_Emoji } from 'next/font/google'
 

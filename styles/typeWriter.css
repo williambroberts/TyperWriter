@@ -1,0 +1,41 @@
+.typer {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: min-content;
+    color: #313547;
+    font-size: 20px;
+  
+  }
+  .typer > span {
+  transition: all 0.25s ease;
+  color:#313547;
+  white-space: pre;
+  }
+  
+  
+  
+  .typer-line {
+  animation-name: flash;
+    animation-duration:1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color:#313547;
+  
+  }
+  
+  @keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+  }
+  
