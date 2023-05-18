@@ -36,7 +36,7 @@ export default function Home() {
        
         <LinkButton icon={<IconGithub/>} text={"Link to Code"} link={"https://github.com/williambroberts/TyperWriter"}/>
         <OneRem/>
-        <Intro>The relevant files are called "typeWriter.jsx" and "typeWriter.css" </Intro>
+        <Intro>The relevant files are called <em>typeWriter.jsx</em> and <em>typeWriter.css</em> </Intro>
         <OneRem/>
         <div className='underlined'>Features:</div>
         <OneRem/>
