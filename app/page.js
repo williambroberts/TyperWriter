@@ -48,12 +48,12 @@ export default function Home() {
           <li><strong>cursor</strong> tick rate</li>
          
         </ul>
-       <code className='code-1'>type writer effect....</code>
+       {/* <code className='code-1'>type writer effect....</code>
        <code className='code-2'>change the text..</code>
        <code className='code-3'>... write a letter </code>
        <code className='code-4'>type your name</code>
        <code className='code-5'>change the speed</code>
-       <code className='code-6'>built in react</code>
+       <code className='code-6'>built in react</code> */}
       </CenteredPAgeWrapper>
     
      
